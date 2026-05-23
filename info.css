@@ -1,0 +1,46 @@
+body{
+    background-color:#E7E1B1;
+    color:black;
+    font-size:20px;
+}
+h2{
+    color:#622B14;
+    font-size:30px;
+    font-weight: bold;
+}
+h5{
+    color:#622B14;
+    font-size:25px;
+    font-weight: bold;
+}
+.form-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.year-label{
+    display:block;
+    margin-bottom: 10px;;
+    font-size:18px;
+    color:#995F2F;
+    cursor:pointer;
+}
+textarea{
+    width:300px;
+    height:100px;
+    padding:10px;
+    font-size:16px;
+    border-radius:5px;
+    color:#995F2F;
+    
+}
+.submit-btn{
+    background-color:#978F66;
+    color:#995F2F;
+    border-radius:10px;;
+    padding:10px 20px;
+    font-size:15px;
+    font-weight: bold;
+    cursor:pointer;
+}
